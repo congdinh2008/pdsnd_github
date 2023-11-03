@@ -62,16 +62,16 @@ def get_filters():
 
     while True:
         # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-        city = choice(
-            'Would you like to see data for Chicago, New York City, Washington or "all" to apply no city filter?\n', CITY_DATA.keys())
+        city = choice('Would you like to see data for Chicago, New York City, Washington'
+                      ' or "all" to apply no city filter?\n', CITY_DATA.keys())
 
         # get user input for month (all, january, february, ... , june)
-        month = choice(
-            'Which month? January, February, March, April, May, June or "all" to apply no month filter?\n', MONTHS)
+        month = choice('Which month? January, February, March, April, May, June'
+                       ' or "all" to apply no month filter?\n', MONTHS)
 
         # get user input for day of week (all, monday, tuesday, ... sunday)
-        day = choice(
-            'Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or "all" to apply no day filter?\n', WEEKDAYS)
+        day = choice('Which day? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday'
+                     ' or "all" to apply no day filter?\n', WEEKDAYS)
 
         confirm = choice(
             'You want to see data for {} in {} on {}?\nEnter [y]yes or [n]no:\n'.format(city, month, day), ('y', 'n'))
