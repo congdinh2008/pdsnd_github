@@ -156,6 +156,7 @@ def time_stats(df):
         None
     """
 
+    print("=================== Time Stats ===================")
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
 
@@ -185,6 +186,7 @@ def station_stats(df):
         None
     """
 
+    print("=================== Station Stats ===================")
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
@@ -216,6 +218,7 @@ def trip_duration_stats(df):
         None
     """
 
+    print("=================== Trip Duration Stats ===================")
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
@@ -257,6 +260,7 @@ def user_stats(df, city):
         None
     """
 
+    print("=================== User Stats ===================")
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
@@ -337,6 +341,7 @@ def main():
         restart = input(
             '\nWould you like to restart? Enter [y]yes or [n]no.\n')
         if restart.lower() != 'y':
+            print('Thank you for using this program.')
             break
 
 
