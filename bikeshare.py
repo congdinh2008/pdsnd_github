@@ -2,12 +2,15 @@ import time
 import pandas as pd
 import numpy as np
 
+# City data dictionary
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
+# Months list
 MONTHS = ('january', 'february', 'march', 'april', 'may', 'june')
 
+# Weekdays list
 WEEKDAYS = ('monday', 'tuesday', 'wednesday',
             'thursday', 'friday', 'saturday', 'sunday')
 
