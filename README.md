@@ -5,7 +5,7 @@
     - [Project Overview](#project-overview)
     - [Tools or Dependencies](#tools-or-dependencies)
     - [Folder Structure](#folder-structure)
-
+    - [How to run the script](#how-to-run-the-script)
 
 ## Project 02 - Python
 
@@ -31,3 +31,31 @@ Go to project-02-python folder and you will find the following:
     ├── bikeshare.py
     └── README.md
 ```
+
+### How to run the script
+
+Download the data from the following links and place all of csv files in the project-02-python folder:
+Data Source: [Divvy Data](https://drive.google.com/file/d/1F3bp6IXNZhE7SVzNU7VGblTTmT3iarlR/view?usp=sharing)
+
+Open the terminal and go to the project-02-python folder
+
+Create a virtual environment and activate it
+
+```bash
+    python -m venv venv
+    source venv/bin/activate
+```
+
+Install the dependencies
+
+```bash
+    pip install -r requirements.txt
+```
+
+Run the script
+
+```bash
+    python bikeshare_2.py
+```
+
+Follow the instructions on the screen.
